@@ -1,0 +1,17 @@
+{
+  "appId": "com.skat.jazzrumen",
+  "appName": "爵士入门",
+  "webDir": "dist",
+  "server": {
+    "androidScheme": "https"
+  },
+  "android": {
+    "allowMixedContent": true
+  },
+  "plugins": {
+    "StatusBar": {
+      "style": "DARK",
+      "backgroundColor": "#0e0f13"
+    }
+  }
+}

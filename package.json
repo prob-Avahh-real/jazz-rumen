@@ -1,0 +1,24 @@
+{
+  "name": "jazz-rumen",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "爵士入门 — 面向初学者的爵士赏析应用：时间线、人物、必听唱片与聆听指南",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "node --test test/*.test.js",
+    "sync:android": "npm run build && npx cap sync android",
+    "apk:debug": "npm run sync:android && ./android/gradlew -p android assembleDebug"
+  },
+  "dependencies": {
+    "@capacitor/android": "^6.2.0",
+    "@capacitor/core": "^6.2.0",
+    "@capacitor/status-bar": "^6.0.2"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^6.2.0",
+    "vite": "^5.4.10"
+  }
+}
